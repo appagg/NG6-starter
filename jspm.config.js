@@ -18,7 +18,7 @@ System.config({
     "angular-ui-router": "github:angular-ui/ui-router@0.2.15",
     "babel": "npm:babel-core@5.8.25",
     "babel-runtime": "npm:babel-runtime@5.8.25",
-    "capaj/systemjs-hot-reloader": "github:capaj/systemjs-hot-reloader@0.5.0",
+    "capaj/systemjs-hot-reloader": "github:capaj/systemjs-hot-reloader@0.6.0",
     "core-js": "npm:core-js@1.2.1",
     "css": "github:systemjs/plugin-css@0.1.12",
     "normalize.css": "github:necolas/normalize.css@3.0.3",
@@ -26,10 +26,10 @@ System.config({
     "github:angular-ui/ui-router@0.2.15": {
       "angular": "github:angular/bower-angular@1.4.0"
     },
-    "github:capaj/systemjs-hot-reloader@0.5.0": {
+    "github:capaj/systemjs-hot-reloader@0.6.0": {
       "debug": "npm:debug@2.2.0",
       "socket.io-client": "github:socketio/socket.io-client@1.3.7",
-      "weakee": "npm:weakee@0.9.1"
+      "weakee": "npm:weakee@1.0.0"
     },
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
@@ -174,11 +174,6 @@ System.config({
     },
     "npm:util@0.10.3": {
       "inherits": "npm:inherits@2.0.1",
-      "process": "github:jspm/nodelibs-process@0.1.2"
-    },
-    "npm:weakee@0.9.1": {
-      "fs": "github:jspm/nodelibs-fs@0.1.2",
-      "path": "github:jspm/nodelibs-path@0.1.0",
       "process": "github:jspm/nodelibs-process@0.1.2"
     }
   }
