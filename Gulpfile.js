@@ -59,7 +59,7 @@ gulp.task('build', function() {
 	var dist = path.join(paths.dist + 'app.js');
 	rimraf.sync(path.join(paths.dist, '*'));
 	// Use JSPM to bundle our app
-	return jspm.bundleSFX(resolveToApp('app'), dist, {})
+	return jspm.bundleSFX('app/app.js', dist, {})
 		.then(function() {
 			// Also create a fully annotated minified copy
 			return gulp.src(dist)
